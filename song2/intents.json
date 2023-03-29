@@ -1,0 +1,202 @@
+{
+    "intents": [
+
+        {
+            "tag": "study",
+            "patterns": [
+                "i want to study now ",
+                " that help me improve my  concentration",
+                "i feel like meditating"," that help me to study","help me to maintain my focus","in the mood to study right now"
+            ],
+            "responses": []
+        },
+
+
+        {
+            "tag": "Workout",
+            "patterns": [
+                "make me go out and exercise",
+                "make me feel energetic",
+                "i feel like doing physical exercise","help me get out of bed instantly","do away with my laziness","gives me energy boost"
+            ],
+            "responses": [ ]
+        },
+
+
+        {
+            "tag": "Groovy",
+            "patterns": [
+                "vibe on a fun songs",
+                "grove onto something"
+                
+            ],
+            "responses": [ ]
+        },
+
+
+        {
+            "tag": "classical",
+            "patterns": [
+                "instrumental songs",
+                "not mood for any  lyrics","songs without any lyrics"
+                
+            ],
+            "responses": [ ]
+        },
+
+
+        {
+            "tag": "happy",
+            "patterns": [
+                "i am very happy suggest to keep my mood lively",
+                "joyful","pleased","cheerful","merry","jolly"
+                
+            ],
+            "responses": [
+                
+            ]
+        },
+
+
+        {
+            "tag": "sad",
+            "patterns": [
+                "low",
+                "dont feel so good",
+                "had bad day",
+                "lighten up mood",
+                "upset",
+                "make feel better",
+                "gloomy"
+            ],
+            "responses": []
+        },
+
+        {
+            "tag": "dance",
+            "patterns": [
+                " want to dance so much ",
+                " some songs to dance to",
+                "wanna get energised",
+                "that make me feel very energetic",
+                "hype me up"
+            ],
+            "responses": []
+        },
+
+
+        {
+            "tag": "chill",
+            "patterns": [
+                "i want to calm down",
+                "anythin calming and soothing",
+                "i want to sooth myself",
+                "to maintain the peacefullness",
+                "tranquil",
+                "serene"
+            ],
+            "responses": []
+        },
+
+        {
+            "tag": "party",
+            "patterns": [
+                "i just want to party hard",
+                "groove to  fast music",
+                "joyful songs","i want to enjoy with my friends","friends are coming over to party"
+            ],
+            "responses": []
+        },
+
+        {
+            "tag": "sleep",
+            "patterns": [
+                "help me sleep",
+                "help me fall asleep","i feel very drowsy right now ","i just want to sleep","just feel like going home and resting","just want to lie down and relax"
+            ],
+            "responses": []
+        },
+
+        {
+            "tag": "romance",
+            "patterns": [
+                "to set a romantic atmosphere",
+                "very passionate mood ",
+                "love songs "
+            ],
+            "responses": []
+        },
+
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo"
+            ],
+            "responses": ["Hello",
+            "Good to see you ","greetings","Hola mate!!"]
+        },
+
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time"
+                
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+            
+        },
+
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+
+        {
+            "tag": "about",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered","what are you?"
+            ],
+            "responses": [
+                "I am a general purpose chatbot, designed to suggest you songs based on your mood "
+            ]   
+        }
+
+
+    ]
+
+}
